@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    color: #e4bd3c;
+
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+/* footer */
+
+footer {
+    background-image: linear-gradient(to right, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:1124) {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .nav {
+        display: none;
+    }
+
+    .tel {
+        display: none;
+    }
+}
